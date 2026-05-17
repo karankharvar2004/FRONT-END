@@ -18,17 +18,7 @@ function Contact() {
                 <div className="pb-5">
                   <h4 className="text-primary">Get in Touch</h4>
                   <p className="mb-0">
-                    The contact form is currently inactive. Get a functional and
-                    working contact form with Ajax &amp; PHP in a few minutes.
-                    Just copy and paste the files, add a little code and you're
-                    done.{" "}
-                    <a
-                      className="text-primary fw-bold"
-                      href="https://htmlcodex.com/contact-form"
-                    >
-                      Download Now
-                    </a>
-                    .
+                    Reach out for ticket assistance, school visits, private group bookings, or general questions about planning your WaterLand day.
                   </p>
                 </div>
                 <div className="row g-4">
@@ -39,7 +29,7 @@ function Contact() {
                       </div>
                       <div>
                         <h4>Address</h4>
-                        <p className="mb-0">123 Street New York.USA</p>
+                        <p className="mb-0">Riverfront Road, Ahmedabad, India</p>
                       </div>
                     </div>
                   </div>
@@ -50,7 +40,7 @@ function Contact() {
                       </div>
                       <div>
                         <h4>Mail Us</h4>
-                        <p className="mb-0">info@example.com</p>
+                        <p className="mb-0">hello@waterlandpark.com</p>
                       </div>
                     </div>
                   </div>
@@ -71,8 +61,8 @@ function Contact() {
                         <i className="fab fa-firefox-browser fa-2x" />
                       </div>
                       <div>
-                        <h4>Yoursite@ex.com</h4>
-                        <p className="mb-0">(+012) 3456 7890</p>
+                        <h4>Visit Online</h4>
+                        <p className="mb-0">www.waterlandpark.com</p>
                       </div>
                     </div>
                   </div>
@@ -154,6 +144,7 @@ function Contact() {
                           placeholder="Project"
                         />
                         <label htmlFor="project">Your Project</label>
+                        <label htmlFor="project">Booking Type</label>
                       </div>
                     </div>
                     <div className="col-12">

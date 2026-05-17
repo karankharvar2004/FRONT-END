@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import React from "react";
 
 function NavHeader({title, subtitle}) {
@@ -17,10 +18,10 @@ function NavHeader({title, subtitle}) {
             data-wow-delay="0.3s"
           >
             <li className="breadcrumb-item">
-              <a href="index.html">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="breadcrumb-item">
-              <a href="#">Pages</a>
+              <NavLink to="/">Pages</NavLink>
             </li>
             <li className="breadcrumb-item active text-primary">{subtitle}</li>
           </ol>

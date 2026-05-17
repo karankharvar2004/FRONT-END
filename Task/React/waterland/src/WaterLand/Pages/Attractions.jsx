@@ -3,6 +3,7 @@ import Header from "../Common/Header";
 import NavHeader from "../Common/NavHeader";
 import Footer from "../Common/Footer";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 
 function Attractions() {
   return (
@@ -39,10 +40,7 @@ function Attractions() {
               Explore WaterLand Park Attractions
             </h1>
             <p className="text-white mb-0 pb-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              From fast-paced thrill rides to classic family favorites, our attractions are designed to keep every age group entertained throughout the day.
             </p>
           </div>
           <div
@@ -58,9 +56,9 @@ function Attractions() {
                 className="img-fluid rounded w-100"
                 alt
               />
-              <a href="#" className="attractions-name">
+              <NavLink to="/Attraction" className="attractions-name">
                 Roller Coaster
-              </a>
+              </NavLink>
             </div>
             <div
               className="attractions-item wow fadeInUp"
@@ -71,9 +69,9 @@ function Attractions() {
                 className="img-fluid rounded w-100"
                 alt
               />
-              <a href="#" className="attractions-name">
+              <NavLink to="/Attraction" className="attractions-name">
                 Carousel
-              </a>
+              </NavLink>
             </div>
             <div
               className="attractions-item wow fadeInUp"
@@ -84,9 +82,9 @@ function Attractions() {
                 className="img-fluid rounded w-100"
                 alt
               />
-              <a href="#" className="attractions-name">
+              <NavLink to="/Attraction" className="attractions-name">
                 Arcade Game
-              </a>
+              </NavLink>
             </div>
             <div
               className="attractions-item wow fadeInUp"
@@ -97,9 +95,9 @@ function Attractions() {
                 className="img-fluid rounded w-100"
                 alt
               />
-              <a href="#" className="attractions-name">
+              <NavLink to="/Attraction" className="attractions-name">
                 Hanging Carousel
-              </a>
+              </NavLink>
             </div>
             <div className="attractions-item wow fadeInUp" data-wow-delay="1s">
               <img
@@ -107,9 +105,9 @@ function Attractions() {
                 className="img-fluid rounded w-100"
                 alt
               />
-              <a href="#" className="attractions-name">
+              <NavLink to="/Attraction" className="attractions-name">
                 Carousel
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

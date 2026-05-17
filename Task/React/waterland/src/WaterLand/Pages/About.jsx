@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 import NavHeader from "../Common/NavHeader";
+import { NavLink } from "react-router-dom";
 
 function About() {
   return (
@@ -21,10 +22,7 @@ function About() {
                     The Best Theme &amp; Amusement Park For Your Family
                   </h1>
                   <p className="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Facilis eligendi illum inventore maiores incidunt vero id.
-                    Est ipsam, distinctio veritatis earum inventore ab fugit
-                    officiis ut ullam, laudantium facere sapiente?
+                    WaterLand is designed as a complete family destination where thrilling attractions, relaxing spaces, and thoughtful guest services come together in one place.
                   </p>
                   <div className="row g-4">
                     <div className="col-md-6">
@@ -35,8 +33,7 @@ function About() {
                         <div>
                           <h4>Food &amp; Drinks</h4>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                            Enjoy refreshing beverages, quick bites, and family meals served throughout the park.
                           </p>
                         </div>
                       </div>
@@ -49,8 +46,7 @@ function About() {
                         <div>
                           <h4>Many Attractions</h4>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                            Explore slides, splash zones, pools, and classic rides designed for every age group.
                           </p>
                         </div>
                       </div>
@@ -63,8 +59,7 @@ function About() {
                         <div>
                           <h4>Affordable Price</h4>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                            Flexible ticket options make group visits and family outings easier to plan.
                           </p>
                         </div>
                       </div>
@@ -77,8 +72,7 @@ function About() {
                         <div>
                           <h4>Safety Lockers</h4>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                            Keep valuables secure while you focus on enjoying the attractions.
                           </p>
                         </div>
                       </div>
@@ -138,7 +132,7 @@ function About() {
                                 </span>
                               </div>
                               <h5 className="text-white mb-0">
-                                Awwards Winning
+                                Awards Won
                               </h5>
                             </div>
                           </div>
@@ -156,7 +150,7 @@ function About() {
                       transform: "translateX(-50%)",
                     }}
                   >
-                    <h3 className="mb-0 text-white">20 Years Experiance</h3>
+                    <h3 className="mb-0 text-white">20 Years Experience</h3>
                   </div>
                 </div>
               </div>
@@ -179,16 +173,14 @@ function About() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">Best Pools</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        Family pools, wave areas, and splash-friendly spaces keep the entire park lively and refreshing.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -204,16 +196,14 @@ function About() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">Waterslides</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        From gentle family slides to faster thrill lanes, there is something for every comfort level.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -229,16 +219,14 @@ function About() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">River Rides</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        Slow-moving river rides offer a scenic and relaxing break between more energetic attractions.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -258,10 +246,7 @@ function About() {
               <h4 className="text-primary">Our Gallery</h4>
               <h1 className="display-5 mb-4">Captured Moments In Waterland</h1>
               <p className="mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur adipisci facilis cupiditate recusandae aperiam
-                temporibus corporis itaque quis facere, numquam, ad culpa
-                deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                Every part of WaterLand is designed to create memorable moments, from high-energy rides to simple family time by the pool.
               </p>
             </div>
             <div className="row g-4">
@@ -390,10 +375,7 @@ function About() {
                 Our Waterland Park Dedicated Team Member
               </h1>
               <p className="mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur adipisci facilis cupiditate recusandae aperiam
-                temporibus corporis itaque quis facere, numquam, ad culpa
-                deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                Our team works behind the scenes and on the ground to make each visit welcoming, organized, and safe.
               </p>
             </div>
             <div className="row g-4 justify-content-center">
@@ -406,7 +388,7 @@ function About() {
                     <div className="d-flex justify-content-between border-bottom pb-4">
                       <div className="text-start">
                         <h4 className="mb-0">David James</h4>
-                        <p className="mb-0">Profession</p>
+                        <p className="mb-0">Guest Experience Lead</p>
                       </div>
                       <div>
                         <img
@@ -444,8 +426,7 @@ function About() {
                       </a>
                     </div>
                     <p className="text-center mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Autem, quibusdam eveniet itaque provident sequi deserunt.
+                      David helps shape a smooth visitor journey, from arrival assistance to on-site guest support.
                     </p>
                   </div>
                 </div>
@@ -459,7 +440,7 @@ function About() {
                     <div className="d-flex justify-content-between border-bottom pb-4">
                       <div className="text-start">
                         <h4 className="mb-0">William John</h4>
-                        <p className="mb-0">Profession</p>
+                        <p className="mb-0">Operations Supervisor</p>
                       </div>
                       <div>
                         <img
@@ -497,8 +478,7 @@ function About() {
                       </a>
                     </div>
                     <p className="text-center mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Autem, quibusdam eveniet itaque provident sequi deserunt.
+                      William coordinates daily ride readiness, staffing flow, and service quality across the park.
                     </p>
                   </div>
                 </div>
@@ -512,7 +492,7 @@ function About() {
                     <div className="d-flex justify-content-between border-bottom pb-4">
                       <div className="text-start">
                         <h4 className="mb-0">Michael John</h4>
-                        <p className="mb-0">Profession</p>
+                        <p className="mb-0">Safety Specialist</p>
                       </div>
                       <div>
                         <img
@@ -550,8 +530,7 @@ function About() {
                       </a>
                     </div>
                     <p className="text-center mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Autem, quibusdam eveniet itaque provident sequi deserunt.
+                      Michael focuses on ride safety, response readiness, and the standards that keep guests confident.
                     </p>
                   </div>
                 </div>

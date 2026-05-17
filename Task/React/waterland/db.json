@@ -35,25 +35,25 @@
       "id": "1751027061982",
       "title": "Food-Courts",
       "img": "https://images.pexels.com/photos/4046760/pexels-photo-4046760.jpeg",
-      "description": "The food courts at our water park offer a refreshing break from the excitement and are designed to satisfy every craving. With a wide variety of options..."
+      "description": "Our food courts keep the energy high with quick snacks, chilled drinks, and family meals placed conveniently near the park's busiest attractions."
     },
     {
       "id": "1751044300344",
       "title": "Best Pools",
       "img": "https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "description": "A crystal-clear, compact pool perfect for refreshing dips and relaxing moments. Ideal for small spaces without compromising comfort or style."
+      "description": "From wave pools to splash zones, our pool experiences are designed for every age group, with lifeguard supervision and plenty of space to relax."
     },
     {
       "id": "1751044350454",
       "title": "Waterslides",
       "img": "https://images.pexels.com/photos/13760406/pexels-photo-13760406.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "description": "Experience the thrill with our exciting waterslides, designed for all ages! Twist, turn, and splash your way down smooth, safe slides that guarantee endless fun and laughter."
+      "description": "Our waterslides deliver fast turns, exciting drops, and safe fun for kids, teens, and thrill-seeking adults throughout the day."
     },
     {
       "id": "1751044395671",
       "title": "River-Rides",
       "img": "https://images.pexels.com/photos/8319455/pexels-photo-8319455.jpeg",
-      "description": "Drift into adventure with our scenic river ride, where gentle currents carry you through lush landscapes and tranquil waters. Perfect for all ages."
+      "description": "Float through scenic curves and calm water trails on our river rides, perfect when you want to slow down between high-energy attractions."
     }
   ],
   "service-cards": [
@@ -61,26 +61,26 @@
       "id": "1",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSal79ARA4MZ24FJKbrBZwCPvetC0sgAPuqnQ&s",
       "title": "Private Gazebo",
-      "description": "Relax in the comfort of your own private gazebo, surrounded by nature and serenity. Perfect for intimate gatherings, peaceful reading, or romantic evenings."
+      "description": "Reserve a shaded private gazebo for your family so you have a comfortable base for relaxing, dining, and storing essentials between rides."
     },
     {
       "id": "2",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GwwA_poF7x19VG1GSRwtYcTNmUOykOq7Tg&s",
       "title": "Delicious Food",
-      "description": "Savor every bite of our mouthwatering dishes, crafted with the freshest ingredients and bursting with flavor. From rich, aromatic spices to perfectly balanced textures."
+      "description": "Enjoy fresh meals, kid-friendly favorites, and refreshing beverages served at convenient food counters across the entire park."
     },
     {
       "id": "3",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5sEv0Mj34gYWxWVMKyLBGYcf4dtpGMJae5g&s",
       "title": "Safety Lockers",
-      "description": "Keep your valuables secure with our durable safety lockers, built with advanced locking technology and robust materials. Designed for both personal and commercial use."
+      "description": "Keep phones, wallets, and extra clothes secure with easy-access lockers placed near pools, slides, and changing areas."
     }
   ],
   "packages": [
     {
       "id": "1",
       "title": "Family Packages",
-      "description": "Whether it's a weekend getaway or a full vacation, our family packages ensure joy and togetherness every step of the way.",
+      "description": "The family package is built for group fun, giving families all-day access and extra comfort perks for a complete park experience.",
       "price": "$260,90/family",
       "subtitle": "All Access To Waterpark",
       "gazebo": "Get Two Gazebo",
@@ -91,7 +91,7 @@
     {
       "id": "2",
       "title": "Basic Packages",
-      "description": "Our Basic Package offers great value with all the essentials you need for a fun and comfortable experience. Enjoy access to core facilities and services.",
+      "description": "The basic package is ideal for solo guests or quick visits, covering the essentials while keeping the day simple and affordable.",
       "price": "$60,90/person",
       "gazebo": "Get Small Gazebo",
       "drinks": "Free Soft Drink",
@@ -136,25 +136,25 @@
       "badge": "Vacation",
       "img": "https://images.pexels.com/photos/5952780/pexels-photo-5952780.jpeg",
       "date": "2025-06-22",
-      "title": "Why children don't like getting out of the water",
-      "description": "Experience the thrill with our exciting waterslides, designed for all ages! Twist, turn, and splash your way down smooth, safe slides that guarantee endless fun and laughter.",
+      "title": "Why kids never want to leave the splash zone",
+      "description": "A closer look at what makes splash pads, mini slides, and wave pools the most unforgettable part of a family day at WaterLand.",
       "2025-07-05": "2025-07-05"
     },
     {
       "id": "2",
-      "badge": "Insight",
+      "badge": "Park Guide",
       "img": "https://images.pexels.com/photos/10067462/pexels-photo-10067462.jpeg",
       "date": "2025-06-04",
-      "title": "5 Ways to enjoy waterland in this spring",
-      "description": "Dive into fun at our water park, where every splash brings a smile! With thrilling slides, relaxing pools, and family-friendly attractions, there's something for everyone."
+      "title": "5 smart ways to enjoy WaterLand this season",
+      "description": "Plan your route, pack the right essentials, and discover how to enjoy more rides, shorter waits, and better family breaks throughout the day."
     },
     {
       "id": "3",
-      "badge": "Enjoyment",
+      "badge": "Family Tips",
       "img": "https://images.pexels.com/photos/8319455/pexels-photo-8319455.jpeg",
       "date": "2025-06-27",
-      "title": "3 Tips for your family spring break at water park",
-      "description": "Get ready for nonstop thrills at our action-packed water park! Race down towering slides, float along lazy rivers, and cool off in wave pools designed for all ages."
+      "title": "3 tips for a smooth family day at the park",
+      "description": "From locker planning to ride timing, these simple tips help families stay comfortable, organized, and focused on the fun."
     }
   ],
   "team": [
@@ -163,35 +163,35 @@
       "name": "Darcy",
       "role": "Marketing",
       "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
-      "description": "WaterLand services are exceptional. They have helped us streamline our operations and processes your work and Business."
+      "description": "Darcy leads seasonal campaigns, visitor outreach, and brand partnerships that keep WaterLand visible, welcoming, and family-focused."
     },
     {
       "id": "1751116989220",
       "name": "John",
-      "role": "Designer ",
+      "role": "Experience Designer",
       "img": "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg",
-      "description": "WaterLand has been a game-changer for our business. Their services are top-notch and the team is always ready to help."
+      "description": "John shapes guest-facing spaces and ride presentation so every corner of the park feels exciting, clear, and easy to navigate."
     },
     {
       "id": "1751117050271",
       "name": "Jerry",
       "role": "Manager",
       "img": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
-      "description": "WaterLand has been a game-changer for our business. Their services are top-notch and the team is always ready to help."
+      "description": "Jerry coordinates daily operations across attractions, staffing, and guest support to keep the park running smoothly from opening to closing."
     },
     {
       "id": "1751117111473",
       "name": "Mike",
-      "role": "Developer",
+      "role": "Safety Coordinator",
       "img": "https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "description": "WaterLand services are exceptional. They have helped us streamline our operations and processes your work and Business."
+      "description": "Mike focuses on operational safety checks, ride readiness, and team coordination so guests can enjoy the park with confidence."
     },
     {
       "id": "1751117220087",
       "name": "Ben",
-      "role": "Contractor",
+      "role": "Guest Services Lead",
       "img": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg",
-      "description": "WaterLand services are exceptional. They have helped us streamline our operations and processes your work and Business."
+      "description": "Ben works with visitor support teams to make check-in, assistance, and on-site communication friendly, quick, and reliable."
     }
   ],
   "client": [
@@ -201,15 +201,15 @@
       "name": "Maggie",
       "role": "Marketing Manager",
       "review": "4.5",
-      "description": "Cental has been a game-changer for our business. Their services are top-notch and the team is always ready to help."
+      "description": "The park felt clean, organized, and energetic from start to finish. Our group loved the mix of thrilling rides and comfortable family spaces."
     },
     {
       "id": "2",
       "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
       "name": "Jenefer",
-      "role": "Contant Writer",
+      "role": "Content Writer",
       "review": "4.1",
-      "description": "cental service are exceptional. They have helped us streamline our operations."
+      "description": "WaterLand delivered the perfect weekend outing. The staff were helpful, the facilities were convenient, and the attractions were genuinely fun."
     },
     {
       "id": "3",
@@ -217,7 +217,7 @@
       "name": "Marina",
       "role": "Publisher",
       "review": "4.6",
-      "description": "Cental has been a game-changer for our business. Their services are top-notch and the team is always ready to help."
+      "description": "What stood out most was the balance between adventure and comfort. It is the kind of park families want to visit again."
     }
   ]
 }

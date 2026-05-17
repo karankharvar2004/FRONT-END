@@ -3,6 +3,7 @@ import Header from "../Common/Header";
 import NavHeader from "../Common/NavHeader";
 import Footer from "../Common/Footer";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 function Feature() {
 
@@ -36,10 +37,7 @@ function Feature() {
               Explore Waterland Park Best Features
             </h1>
             <p className="mb-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              WaterLand combines exciting rides, guest comfort, and family-friendly facilities to create a complete park experience from arrival to closing time.
             </p>
           </div>
           <div className="row g-4">
@@ -60,12 +58,12 @@ function Feature() {
                           <p className="text-white">
                             {data.description}
                           </p>
-                          <a
-                            href="#"
+                          <NavLink
+                            to="/Feature"
                             className="btn btn-primary rounded-pill py-2 px-4"
                           >
                             Read More <i className="fa fa-arrow-right ms-1" />
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>

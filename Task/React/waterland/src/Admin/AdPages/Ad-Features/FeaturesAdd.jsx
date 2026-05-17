@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import AdHeader from '../../AdCommon/AdHeader'
 import AdNavHeader from '../../AdCommon/AdNavHeader'
 import axios from 'axios';
-import { redirect, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 function FeaturesAdd() {
 
@@ -49,33 +49,37 @@ function FeaturesAdd() {
       <AdNavHeader title="Add Features" subtitle="Features" />
 
       <div className='container py-5'>
-        <div className="p-5 rounded" style={{ backgroundImage: "url('https://images.pexels.com/photos/4253060/pexels-photo-4253060.jpeg')", backgroundRepeat: "no-repeat", objectFit: "cover", backgroundSize: "100% 100%" }}>
-          <h1 className="mb-4 text-center fw-bold mb-4" style={{ color: "darkslateblue" }}><u>Add Your Features</u></h1>
-          <form onSubmit={submit}>
-            <div className="row g-4">
-              <div className="col-12">
-                <div className="form-floating">
-                  <input type="text" value={form.title} name='title' onChange={getchange} className="form-control" id="name" placeholder="Your title" style={{ color: "darkslateblue" }} />
-                  <label htmlFor="name">Your title</label>
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="form-floating">
-                  <input type="url" value={form.img} name='img' onChange={getchange} className="form-control" id="image" placeholder="your Images url" style={{ color: "darkslateblue" }} />
-                  <label htmlFor="image">your Images url</label>
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="form-floating">
-                  <textarea className="form-control" name='description' onChange={getchange} value={form.description} placeholder="Leave a message here Desc" id="message" style={{ height: 160, color: "darkslateblue" }} defaultValue={""} />
-                  <label htmlFor="message">Description</label>
-                </div>
-              </div>
-              <div className="col-12">
-                <button className="btn btn-light fw-bold w-100 py-3" style={{ color: "darkslateblue", fontSize: "20px" }}>Add Your Feature</button>
-              </div>
+        <div className="admin-form-shell">
+          <div className="admin-form-card admin-form-card--wide">
+            <div className="admin-section-heading text-center">
+              <span className="admin-kicker">Content Studio</span>
+              <h1>Add a New Feature</h1>
+              <p>Publish a new attraction highlight with a title, image, and short description for the public website.</p>
             </div>
-          </form>
+
+            <form onSubmit={submit}>
+              <div className="row g-4">
+                <div className="col-12">
+                  <label htmlFor="name" className="admin-label">Feature Title</label>
+                  <input type="text" value={form.title} name='title' onChange={getchange} className="form-control admin-input" id="name" placeholder="Enter feature title" />
+                </div>
+                <div className="col-12">
+                  <label htmlFor="image" className="admin-label">Image URL</label>
+                  <input type="url" value={form.img} name='img' onChange={getchange} className="form-control admin-input" id="image" placeholder="Paste image URL" />
+                </div>
+                <div className="col-12">
+                  <label htmlFor="message" className="admin-label">Description</label>
+                  <textarea className="form-control admin-input admin-textarea" name='description' onChange={getchange} value={form.description} placeholder="Write a short feature description" id="message" />
+                </div>
+                <div className="col-12">
+                  <div className="admin-action-row">
+                    <button className="btn admin-btn-primary" type="submit">Add Feature</button>
+                    <NavLink to="/FeaturesManage" className="btn admin-btn-secondary">View All Features</NavLink>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 

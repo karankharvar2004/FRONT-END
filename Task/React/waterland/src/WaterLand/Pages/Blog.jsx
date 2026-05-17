@@ -3,6 +3,7 @@ import Header from "../Common/Header";
 import NavHeader from "../Common/NavHeader";
 import Footer from "../Common/Footer";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 function Blog() {
 
@@ -34,10 +35,7 @@ function Blog() {
             <h4 className="text-primary">Our Blog</h4>
             <h1 className="display-5 mb-4">Latest Blog &amp; Articles</h1>
             <p className="mb-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              Read practical tips, family guides, and park updates that help guests plan a better visit and enjoy more of what WaterLand offers.
             </p>
           </div>
           <div className="row g-4">
@@ -48,13 +46,13 @@ function Blog() {
                     <div className="card me-3" style={{ minWidth: '300px'}}>
                       <div className="blog-item">
                         <div className="blog-img">
-                          <a href="#">
+                          <NavLink to="/Blog">
                             <img
                               src={data.img}
                               className="img-fluid w-100 rounded-top"
                               alt="Image"
                             />
-                          </a>
+                          </NavLink>
                           <div className="blog-category py-2 px-4">{data.badge}</div>
                           <div className="blog-date">
                             <i className="fas fa-clock me-2" />
@@ -62,18 +60,18 @@ function Blog() {
                           </div>
                         </div>
                         <div className="blog-content p-4">
-                          <a href="#" className="h5 d-inline-block mb-3">
+                          <NavLink to="/Blog" className="h5 d-inline-block mb-3">
                             {data.title}
-                          </a>
+                          </NavLink>
                           <p className="mb-3">
                             {data.description}
                           </p>
-                          <a
-                            href="#"
+                          <NavLink
+                            to="/Blog"
                             className="btn btn-primary rounded-pill py-2 px-4"
                           >
                             Read More <i className="fas fa-arrow-right ms-2" />
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>

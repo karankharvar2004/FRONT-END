@@ -25,7 +25,7 @@ function Header() {
       {/* Navbar & Hero Start */}
       <div className="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <NavLink className="navbar-brand p-0">
+          <NavLink to="/" className="navbar-brand p-0">
             <h1 className="display-6 text-dark">
               <i className="fas fa-swimmer text-primary me-3" />
               WaterLand
@@ -128,12 +128,12 @@ function Header() {
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
-            <a
-              href="#"
+            <NavLink
+              to="/Register"
               className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
             >
               Get Started
-            </a>
+            </NavLink>
           </div>
         </nav>
       </div>

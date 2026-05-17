@@ -35,12 +35,9 @@ function Testimonial() {
             style={{ maxWidth: 800 }}
           >
             <h4 className="text-primary">Testimonials</h4>
-            <h1 className="display-5 text-white mb-4">Our Clients Riviews</h1>
+            <h1 className="display-5 text-white mb-4">What Our Guests Say</h1>
             <p className="text-white mb-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              Families, groups, and first-time visitors choose WaterLand for its mix of energy, comfort, and guest-friendly service. Here is what they had to say.
             </p>
           </div>
           <div
@@ -49,10 +46,7 @@ function Testimonial() {
           >
             <div className="testimonial-item p-4">
               <p className="text-white fs-4 mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                mollitia fugiat, nihil autem reprehenderit aperiam maxime minima
-                consequatur, nam iste eius velit perferendis voluptatem at atque
-                neque soluta reiciendis doloremque.
+                WaterLand made our family outing feel effortless. The rides were exciting, the staff were helpful, and the facilities were clean all day long.
               </p>
               <div className="testimonial-inner">
                 <div className="testimonial-img">
@@ -66,8 +60,8 @@ function Testimonial() {
                   </div>
                 </div>
                 <div className="ms-4">
-                  <h4>Person Name</h4>
-                  <p className="text-start text-white">Profession</p>
+                  <h4>Aisha Khan</h4>
+                  <p className="text-start text-white">Travel Blogger</p>
                   <div className="d-flex text-primary">
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
@@ -80,10 +74,7 @@ function Testimonial() {
             </div>
             <div className="testimonial-item p-4">
               <p className="text-white fs-4 mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                mollitia fugiat, nihil autem reprehenderit aperiam maxime minima
-                consequatur, nam iste eius velit perferendis voluptatem at atque
-                neque soluta reiciendis doloremque.
+                The package options were practical, the kids loved the water play zone, and we always found a comfortable place to rest between attractions.
               </p>
               <div className="testimonial-inner">
                 <div className="testimonial-img">
@@ -97,8 +88,8 @@ function Testimonial() {
                   </div>
                 </div>
                 <div className="ms-4">
-                  <h4>Person Name</h4>
-                  <p className="text-start text-white">Profession</p>
+                  <h4>Daniel Brooks</h4>
+                  <p className="text-start text-white">Parent Visitor</p>
                   <div className="d-flex text-primary">
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
@@ -111,10 +102,7 @@ function Testimonial() {
             </div>
             <div className="testimonial-item p-4">
               <p className="text-white fs-4 mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                mollitia fugiat, nihil autem reprehenderit aperiam maxime minima
-                consequatur, nam iste eius velit perferendis voluptatem at atque
-                neque soluta reiciendis doloremque.
+                We booked a group visit and the entire experience felt organized from entry to exit. It is the kind of place people immediately recommend.
               </p>
               <div className="testimonial-inner">
                 <div className="testimonial-img">
@@ -128,8 +116,8 @@ function Testimonial() {
                   </div>
                 </div>
                 <div className="ms-4">
-                  <h4>Person Name</h4>
-                  <p className="text-start text-white">Profession</p>
+                  <h4>Meera Patel</h4>
+                  <p className="text-start text-white">Event Coordinator</p>
                   <div className="d-flex text-primary">
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />

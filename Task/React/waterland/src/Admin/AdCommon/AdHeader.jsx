@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink, redirect, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 
@@ -25,7 +25,7 @@ function AdHeader() {
             {/* Navbar & Hero Start */}
             <div className="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <NavLink className="navbar-brand p-0">
+                    <NavLink to="/DashBoard" className="navbar-brand p-0">
                         <h1 className="display-6 text-dark">
                             <i className="fas fa-swimmer text-primary me-3" />
                             WaterLand
@@ -96,40 +96,40 @@ function AdHeader() {
                                     </NavLink>
                                 </div>
                             </div>
-                            {/* <NavLink to="/Service" className="nav-item nav-link">
-                                Service
-                            </NavLink> */}
                             <div className="nav-item dropdown">
                                 <a
                                     href="#"
                                     className="nav-link dropdown-toggle"
                                     data-bs-toggle="dropdown"
                                 >
-                                    Pages
+                                    Tickets
                                 </a>
                                 <div className="dropdown-menu m-0">
-                                    <NavLink to="/About" className="dropdown-item">
-                                        About
+                                    <NavLink to="/PackagesManage" className="dropdown-item">
+                                        Tickets-Manage
                                     </NavLink>
-                                    <NavLink to="/Gallery" className="dropdown-item">
-                                        Our Gallery
-                                    </NavLink>
-                                    <NavLink to="/Attraction" className="dropdown-item">
-                                        Attractions
-                                    </NavLink>
-                                    <NavLink to="/Ticket" className="dropdown-item">
-                                        Ticket Packages
-                                    </NavLink>
-                                    <NavLink to="/Testimonial" className="dropdown-item">
-                                        Testimonial
-                                    </NavLink>
-                                    <NavLink to="/Contact" className="dropdown-item">
-                                        Contact
+                                    <NavLink to="/PackagesAdd" className="dropdown-item">
+                                        Tickets-Add
                                     </NavLink>
                                 </div>
-
                             </div>
-
+                            <div className="nav-item dropdown">
+                                <a
+                                    href="#"
+                                    className="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                >
+                                    Attractions
+                                </a>
+                                <div className="dropdown-menu m-0">
+                                    <NavLink to="/AttractionsManage" className="dropdown-item">
+                                        Attractions-Manage
+                                    </NavLink>
+                                    <NavLink to="/AttractionsAdd" className="dropdown-item">
+                                        Attractions-Add
+                                    </NavLink>
+                                </div>
+                            </div>
                             <NavLink to="/UserManage" className="nav-item nav-link">
                                 UserManage
                             </NavLink>

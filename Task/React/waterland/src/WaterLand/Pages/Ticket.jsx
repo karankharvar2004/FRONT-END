@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Common/Header";
 import NavHeader from "../Common/NavHeader";
 import Footer from "../Common/Footer";
+import { NavLink } from "react-router-dom";
 
 function Ticket() {
   return (
@@ -23,10 +24,7 @@ function Ticket() {
                   Choose The Best Packages For Your Family
                 </h1>
                 <p className="mb-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Tenetur adipisci facilis cupiditate recusandae aperiam
-                  temporibus corporis itaque quis facere, numquam, ad culpa
-                  deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                  Our ticket packages are designed for flexible budgets, family comfort, and a full day of easy access to WaterLand's top attractions.
                 </p>
                 <p>
                   <i className="fa fa-check text-primary me-2" />
@@ -44,10 +42,10 @@ function Ticket() {
                   <i className="fa fa-check text-primary me-2" />
                   Win Up To 3 Free All Day Tickets
                 </p>
-                <a href="#" className="btn btn-primary rounded-pill py-3 px-5">
+                <NavLink to="/Contact" className="btn btn-primary rounded-pill py-3 px-5">
                   {" "}
                   Book Now
-                </a>
+                </NavLink>
               </div>
             </div>
             <div
@@ -58,8 +56,7 @@ function Ticket() {
                 <div className="pb-4 border-bottom">
                   <h2 className="mb-4 text-primary">Family Packages</h2>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Possimus, dolorum!
+                    Ideal for families who want more comfort, more access, and more value in one visit.
                   </p>
                   <h2 className="mb-0 text-primary">
                     $260,90
@@ -88,10 +85,10 @@ function Ticket() {
                     Free Four Towels
                   </p>
                 </div>
-                <a href="#" className="btn btn-light rounded-pill py-3 px-5">
+                <NavLink to="/Contact" className="btn btn-light rounded-pill py-3 px-5">
                   {" "}
                   Book Now
-                </a>
+                </NavLink>
               </div>
             </div>
             <div
@@ -102,8 +99,7 @@ function Ticket() {
                 <div className="pb-4 border-bottom">
                   <h2 className="text-dark mb-4">Basic Packages</h2>
                   <p className="text-white mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Possimus, dolorum!
+                    A simple and affordable option for individual guests who want a fun, flexible park day.
                   </p>
                   <h2 className="text-dark mb-0">
                     $60,90
@@ -128,10 +124,10 @@ function Ticket() {
                     Free Towel
                   </p>
                 </div>
-                <a href="#" className="btn btn-dark rounded-pill py-3 px-5">
+                <NavLink to="/Contact" className="btn btn-dark rounded-pill py-3 px-5">
                   {" "}
                   Book Now
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

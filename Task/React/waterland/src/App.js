@@ -25,6 +25,10 @@ import UserEdit from "./WaterLand/Pages/UserEdit";
 import AdLogin from "./Admin/AdPages/AdLogin";
 import AdminEdit from "./Admin/AdPages/AdminEdit";
 import UserManage from "./Admin/AdPages/UserManage";
+import PackagesManage from "./Admin/AdPages/Ad-Packages/PackagesManage";
+import PackagesAdd from "./Admin/AdPages/Ad-Packages/PackagesAdd";
+import AttractionsManage from "./Admin/AdPages/Ad-Attractions/AttractionsManage";
+import AttractionsAdd from "./Admin/AdPages/Ad-Attractions/AttractionsAdd";
 import { ToastContainer } from "react-toastify";
 
 function App() {
@@ -63,6 +67,10 @@ function App() {
       <Route path="/AdLogin" element={<AdLogin />} />
       <Route path="/AdminEdit" element={<AdminEdit />} />
       <Route path="/UserManage" element={<UserManage />} />
+      <Route path="/PackagesManage" element={<PackagesManage />} />
+      <Route path="/PackagesAdd" element={<PackagesAdd />} />
+      <Route path="/AttractionsManage" element={<AttractionsManage />} />
+      <Route path="/AttractionsAdd" element={<AttractionsAdd />} />
 
 
       </Routes>

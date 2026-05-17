@@ -1,10 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function AdNavHeader({title, subtitle}) {
     return (
         <div>
             {/* Header Start */}
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb admin-hero">
                 <div className="container text-center py-5" style={{ maxWidth: 900 }}>
                     <h4
                         className="text-white display-4 mb-4 wow fadeInDown"
@@ -17,10 +18,10 @@ function AdNavHeader({title, subtitle}) {
                         data-wow-delay="0.3s"
                     >
                         <li className="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <NavLink to="/DashBoard">Dashboard</NavLink>
                         </li>
                         <li className="breadcrumb-item">
-                            <a href="#">Pages</a>
+                            <NavLink to="/DashBoard">Admin</NavLink>
                         </li>
                         <li className="breadcrumb-item active text-primary">{subtitle}</li>
                     </ol>

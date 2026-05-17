@@ -20,10 +20,7 @@ function Gallery() {
             <h4 className="text-primary">Our Gallery</h4>
             <h1 className="display-5 mb-4">Captured Moments In Waterland</h1>
             <p className="mb-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              Explore snapshots from across the park, from splash-filled rides and family moments to relaxing corners that make every visit memorable.
             </p>
           </div>
           <div className="row g-4">

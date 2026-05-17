@@ -3,6 +3,7 @@ import Header from "../Common/Header";
 import NavHeader from "../Common/NavHeader";
 import Footer from "../Common/Footer";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 
 function Service() {
   return (
@@ -40,10 +41,7 @@ function Service() {
                 Explore Waterland Park service
               </h1>
               <p className="mb-0 text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur adipisci facilis cupiditate recusandae aperiam
-                temporibus corporis itaque quis facere, numquam, ad culpa
-                deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                Our services are built to make every visit smoother, safer, and more enjoyable, whether you are here for a quick day trip or a full family outing.
               </p>
             </div>
             <div className="row g-4">
@@ -86,12 +84,11 @@ function Service() {
                     <div className="mb-4">
                       <i className="fas fa-home fa-4x" />
                     </div>
-                    <a href="#" className="h4 d-inline-block mb-3">
+                    <NavLink to="/Service" className="h4 d-inline-block mb-3">
                       Private Gazebo
-                    </a>
+                    </NavLink>
                     <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Amet vel beatae numquam.
+                      A shaded and comfortable base for families who want privacy, rest, and a place to regroup between rides.
                     </p>
                   </div>
                 </div>
@@ -105,12 +102,11 @@ function Service() {
                     <div className="mb-4">
                       <i className="fas fa-utensils fa-4x" />
                     </div>
-                    <a href="#" className="h4 d-inline-block mb-3">
+                    <NavLink to="/Service" className="h4 d-inline-block mb-3">
                       Delicious Food
-                    </a>
+                    </NavLink>
                     <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Amet vel beatae numquam.
+                      Fresh snacks, cooling drinks, and satisfying meals are available throughout the park for guests of all ages.
                     </p>
                   </div>
                 </div>
@@ -124,12 +120,11 @@ function Service() {
                     <div className="mb-4">
                       <i className="fas fa-door-closed fa-4x" />
                     </div>
-                    <a href="#" className="h4 d-inline-block mb-3">
+                    <NavLink to="/Service" className="h4 d-inline-block mb-3">
                       Safety Lockers
-                    </a>
+                    </NavLink>
                     <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Amet vel beatae numquam.
+                      Secure lockers let you enjoy the water worry-free while keeping valuables protected and close by.
                     </p>
                   </div>
                 </div>
@@ -143,12 +138,11 @@ function Service() {
                     <div className="mb-4">
                       <i className="fas fa-swimming-pool fa-4x" />
                     </div>
-                    <a href="#" className="h4 d-inline-block mb-3">
+                    <NavLink to="/Service" className="h4 d-inline-block mb-3">
                       River Rides
-                    </a>
+                    </NavLink>
                     <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Amet vel beatae numquam.
+                      Relax on scenic river rides that offer a slower, refreshing experience between the park's bigger thrills.
                     </p>
                   </div>
                 </div>
@@ -172,16 +166,14 @@ function Service() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">Best Pools</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        Spacious pools, splash zones, and wave areas give every guest a refreshing place to play or unwind.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -197,16 +189,14 @@ function Service() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">Waterslides</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        High-energy waterslides deliver fast drops, sharp turns, and exciting moments all day long.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -222,16 +212,14 @@ function Service() {
                     <div className="feature-content-inner">
                       <h4 className="text-white">River Rides</h4>
                       <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis porro soluta voluptatum laborum mollitia
-                        blanditiis suscipit,
+                        Gentle river routes create a calm contrast to the park's thrill attractions and are perfect for families.
                       </p>
-                      <a
-                        href="#"
+                      <NavLink
+                        to="/Feature"
                         className="btn btn-primary rounded-pill py-2 px-4"
                       >
                         Read More <i className="fa fa-arrow-right ms-1" />
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -249,12 +237,9 @@ function Service() {
               style={{ maxWidth: 800 }}
             >
               <h4 className="text-primary">Testimonials</h4>
-              <h1 className="display-5 text-white mb-4">Our Clients Riviews</h1>
+              <h1 className="display-5 text-white mb-4">What Our Guests Say</h1>
               <p className="text-white mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur adipisci facilis cupiditate recusandae aperiam
-                temporibus corporis itaque quis facere, numquam, ad culpa
-                deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                Our best feedback comes from guests who return with friends and family after a day that felt exciting, easy, and well managed.
               </p>
             </div>
             <div
@@ -263,10 +248,7 @@ function Service() {
             >
               <div className="testimonial-item p-4">
                 <p className="text-white fs-4 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  mollitia fugiat, nihil autem reprehenderit aperiam maxime
-                  minima consequatur, nam iste eius velit perferendis voluptatem
-                  at atque neque soluta reiciendis doloremque.
+                  WaterLand gave us a full day of fun without feeling stressful. Every area felt designed with families in mind.
                 </p>
                 <div className="testimonial-inner">
                   <div className="testimonial-img">
@@ -280,8 +262,8 @@ function Service() {
                     </div>
                   </div>
                   <div className="ms-4">
-                    <h4>Person Name</h4>
-                    <p className="text-start text-white">Profession</p>
+                    <h4>Aisha Khan</h4>
+                    <p className="text-start text-white">Travel Blogger</p>
                     <div className="d-flex text-primary">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
@@ -294,10 +276,7 @@ function Service() {
               </div>
               <div className="testimonial-item p-4">
                 <p className="text-white fs-4 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  mollitia fugiat, nihil autem reprehenderit aperiam maxime
-                  minima consequatur, nam iste eius velit perferendis voluptatem
-                  at atque neque soluta reiciendis doloremque.
+                  We appreciated the clean layout, helpful staff, and mix of attractions for both adults and children.
                 </p>
                 <div className="testimonial-inner">
                   <div className="testimonial-img">
@@ -311,8 +290,8 @@ function Service() {
                     </div>
                   </div>
                   <div className="ms-4">
-                    <h4>Person Name</h4>
-                    <p className="text-start text-white">Profession</p>
+                    <h4>Daniel Brooks</h4>
+                    <p className="text-start text-white">Parent Visitor</p>
                     <div className="d-flex text-primary">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
@@ -325,10 +304,7 @@ function Service() {
               </div>
               <div className="testimonial-item p-4">
                 <p className="text-white fs-4 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                  mollitia fugiat, nihil autem reprehenderit aperiam maxime
-                  minima consequatur, nam iste eius velit perferendis voluptatem
-                  at atque neque soluta reiciendis doloremque.
+                  From booking to departure, the experience felt smooth and professional. It is a strong choice for groups and events.
                 </p>
                 <div className="testimonial-inner">
                   <div className="testimonial-img">
@@ -342,8 +318,8 @@ function Service() {
                     </div>
                   </div>
                   <div className="ms-4">
-                    <h4>Person Name</h4>
-                    <p className="text-start text-white">Profession</p>
+                    <h4>Meera Patel</h4>
+                    <p className="text-start text-white">Event Coordinator</p>
                     <div className="d-flex text-primary">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />

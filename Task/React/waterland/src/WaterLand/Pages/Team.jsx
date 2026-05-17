@@ -36,10 +36,7 @@ function Team() {
               Our Waterland Park Dedicated Team Member
             </h1>
             <p className="mb-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-              adipisci facilis cupiditate recusandae aperiam temporibus corporis
-              itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-              obcaecati, ipsam mollitia hic.
+              Behind every smooth park day is a team focused on guest safety, service quality, and creating an atmosphere that families enjoy.
             </p>
           </div>
           <div className="row g-4 justify-content-center">
@@ -50,19 +47,19 @@ function Team() {
                   <div
                     className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
                     data-wow-delay="0.2s"
+                    key={data.id}
                   >
-                    <div className="team-item p-4">
-                      <div className="team-content">
-                        <div className="d-flex justify-content-between border-bottom pb-4">
-                          <div className="text-start">
+                    <div className="team-item team-card p-4 h-100">
+                      <div className="team-content team-card-content">
+                        <div className="team-card-header border-bottom pb-4">
+                          <div className="text-start team-card-copy">
                             <h4 className="mb-0">{data.name}</h4>
                             <p className="mb-0">{data.role}</p>
                           </div>
-                          <div>
+                          <div className="team-card-media">
                             <img
                               src={data.img}
-                              className="img-fluid rounded"
-                              style={{ width: 275, height: 200 }}
+                              className="img-fluid rounded team-card-image"
                               alt
                             />
                           </div>
@@ -93,7 +90,7 @@ function Team() {
                             <i className="fab fa-instagram" />
                           </a>
                         </div>
-                        <p className="text-center mb-0">
+                        <p className="team-card-desc text-center mb-0">
                           {data.description}
                         </p>
                       </div>

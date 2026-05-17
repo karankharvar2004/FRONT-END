@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import AdHeader from '../AdCommon/AdHeader';
+import AdNavHeader from '../AdCommon/AdNavHeader';
 
 function AdminEdit() {
     const redirect = useNavigate();
@@ -59,72 +60,71 @@ function AdminEdit() {
     return (
         <div>
             <AdHeader />
+            <AdNavHeader title="Admin Profile" subtitle="Profile" />
 
-            <section className="vh-100 bg-image"
-                style={{
-                    backgroundImage: "url('https://images.pexels.com/photos/4253060/pexels-photo-4253060.jpeg')",
-                    backgroundSize: 'cover'
-                }}>
-                <div className="container h-100">
-                    <div className="row d-flex justify-content-center align-items-center h-100">
-                        <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                            <div className="card" style={{ borderRadius: "50px", overflow: "hidden" }}>
-                                <div className="card-body p-3" style={{ backgroundColor: "whitesmoke", borderRadius: "50px" }}>
-                                    <h1 className='text-center fw-bold my-5' style={{ color: "steelblue" }}><u>Edit Admin Profile</u></h1>
-
-                                    <form onSubmit={updateAdmin}>
-                                        <div className="form-outline mb-4">
-                                            <input
-                                                type="text"
-                                                name='name'
-                                                value={admin.name}
-                                                onChange={handleChange}
-                                                className="form-control form-control-lg"
-                                                style={{ color: "steelblue" }}
-                                            />
-                                            <label className="form-label">Admin Name</label>
-                                        </div>
-
-                                        <div className="form-outline mb-4">
-                                            <input
-                                                type="email"
-                                                name='email'
-                                                value={admin.email}
-                                                onChange={handleChange}
-                                                className="form-control form-control-lg"
-                                                style={{ color: "steelblue" }}
-                                            />
-                                            <label className="form-label">Email</label>
-                                        </div>
-
-                                        <div className="form-outline mb-4">
-                                            <input
-                                                type="password"
-                                                name='password'
-                                                value={admin.password}
-                                                onChange={handleChange}
-                                                className="form-control form-control-lg"
-                                                style={{ color: "steelblue" }}
-                                            />
-                                            <label className="form-label">Password</label>
-                                        </div>
-
-                                        <div className="form-check d-flex justify-content-center mb-5">
-                                            <input className="form-check-input me-2" type="checkbox" id="termsCheck" />
-                                            <label className="form-check-label" htmlFor="termsCheck">
-                                                I agree to the <a href="#!" className="text-body"><u style={{ color: "steelblue" }}>terms</u></a>
-                                            </label>
-                                        </div>
-
-                                        <div className="d-flex justify-content-center">
-                                            <button type="submit" className="btn btn-primary btn-block btn-lg">
-                                                Update Profile
-                                            </button>
-                                        </div>
-                                    </form>
-
-                                </div>
+            <section className="admin-surface py-5">
+                <div className="container py-5">
+                    <div className="admin-form-shell">
+                        <div className="admin-form-card">
+                            <div className="admin-section-heading text-center">
+                                <span className="admin-kicker">Profile Settings</span>
+                                <h1>Edit Admin Profile</h1>
+                                <p>Update your account information so the admin panel stays personalized, current, and secure.</p>
                             </div>
+
+                            <form onSubmit={updateAdmin}>
+                                <div className="mb-4">
+                                    <label className="admin-label" htmlFor="adminName">Admin Name</label>
+                                    <input
+                                        type="text"
+                                        id="adminName"
+                                        name="name"
+                                        value={admin.name}
+                                        onChange={handleChange}
+                                        className="form-control admin-input"
+                                        placeholder="Enter admin name"
+                                    />
+                                </div>
+
+                                <div className="mb-4">
+                                    <label className="admin-label" htmlFor="adminEmail">Email Address</label>
+                                    <input
+                                        type="email"
+                                        id="adminEmail"
+                                        name="email"
+                                        value={admin.email}
+                                        onChange={handleChange}
+                                        className="form-control admin-input"
+                                        placeholder="Enter email address"
+                                    />
+                                </div>
+
+                                <div className="mb-4">
+                                    <label className="admin-label" htmlFor="adminPassword">Password</label>
+                                    <input
+                                        type="password"
+                                        id="adminPassword"
+                                        name="password"
+                                        value={admin.password}
+                                        onChange={handleChange}
+                                        className="form-control admin-input"
+                                        placeholder="Enter password"
+                                    />
+                                </div>
+
+                                <div className="form-check admin-check mb-4">
+                                    <input className="form-check-input" type="checkbox" id="termsCheck" />
+                                    <label className="form-check-label" htmlFor="termsCheck">
+                                        I confirm these profile details are ready to update.
+                                    </label>
+                                </div>
+
+                                <div className="admin-action-row admin-action-row--center">
+                                    <button type="submit" className="btn admin-btn-primary">
+                                        Update Profile
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
